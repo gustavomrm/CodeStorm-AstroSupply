@@ -25,3 +25,25 @@ todosLinks.forEach(function (link) {
         link.classList.add("ativo");
     }
 });
+var titulosPerguntas = document.querySelectorAll(".pergunta-titulo");
+
+titulosPerguntas.forEach(function (titulo) {
+    titulo.addEventListener("click", function () {
+        var resposta = this.nextElementSibling;
+
+        titulosPerguntas.forEach(function (outro) {
+            if (outro !== titulo) {
+                outro.classList.remove("aberta");
+                outro.nextElementSibling.style.display = "none";
+            }
+        });
+
+        this.classList.toggle("aberta");
+
+        if (resposta.style.display === "block") {
+            resposta.style.display = "none";
+        } else {
+            resposta.style.display = "block";
+        }
+    });
+});

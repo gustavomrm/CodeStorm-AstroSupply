@@ -113,3 +113,66 @@ footer {
 .hamburguer.aberto span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -6px);
 }
+.btn {
+    display: inline-block;
+    margin-top: 35px;
+    background: #4fc3ff;
+    color: #111;
+    padding: 14px 35px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+}
+
+.secao-titulo {
+    text-align: center;
+    padding: 50px 20px 10px;
+}
+
+.secao-titulo h2 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.secao-titulo p {
+    color: #aaa;
+    font-size: 17px;
+}
+
+.cards {
+    width: 90%;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    color: #111;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.card p {
+    color: #444;
+    line-height: 1.6;
+}

@@ -453,3 +453,82 @@ footer {
     background: #4fc3ff;
     color: #111;
 }
+@media (max-width: 900px) {
+    header {
+        padding: 16px 25px;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    nav.aberto {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 13px 0;
+        border-bottom: 1px solid #1e2d5a;
+        font-size: 16px;
+    }
+
+    .hamburguer {
+        display: flex;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        width: 95%;
+        font-size: 17px;
+    }
+
+    .faq {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .cards {
+        width: 95%;
+    }
+
+    .dashboard {
+        width: 95%;
+    }
+
+    .alertas-lista {
+        width: 95%;
+    }
+
+    .pessoa {
+        width: 100%;
+    }
+
+    .secao-titulo h2 {
+        font-size: 26px;
+    }
+
+    .form-wrapper {
+        width: 95%;
+    }
+}

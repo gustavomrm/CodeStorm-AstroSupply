@@ -47,3 +47,33 @@ titulosPerguntas.forEach(function (titulo) {
         }
     });
 });
+var formulario = document.getElementById("formContato");
+
+if (formulario) {
+    formulario.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        var nome = document.getElementById("nome").value.trim();
+        var email = document.getElementById("email").value.trim();
+        var mensagem = document.getElementById("mensagem").value.trim();
+        var msgErro = document.getElementById("msgErro");
+        var msgSucesso = document.getElementById("msgSucesso");
+
+        msgErro.style.display = "none";
+        msgSucesso.style.display = "none";
+
+        if (nome === "" || email === "" || mensagem === "") {
+            msgErro.style.display = "block";
+            return;
+        }
+
+        if (email.indexOf("@") === -1 || email.indexOf(".") === -1) {
+            msgErro.textContent = "Digite um e-mail válido.";
+            msgErro.style.display = "block";
+            return;
+        }
+
+        msgSucesso.style.display = "block";
+        formulario.reset();
+    });
+}

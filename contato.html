@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - AstroSupply</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            🚀 <span>AstroSupply</span>
+        </div>
+
+        <button class="hamburguer" id="hamburguer" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="menuNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="alertas.html">Alertas</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>Entre em Contato</h1>
+            <p>
+                Tem dúvidas, sugestões ou quer saber mais sobre o AstroSupply?
+                Envie uma mensagem pelo formulário abaixo.
+            </p>
+        </section>
+
+        <div class="form-wrapper">
+
+            <div class="msg-erro" id="msgErro">
+                Preencha todos os campos antes de enviar.
+            </div>
+
+            <form id="formContato">
+
+                <label for="nome">Nome</label>
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Digite seu nome"
+                >
+
+                <label for="email">E-mail</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Digite seu e-mail"
+                >
+
+                <label for="mensagem">Mensagem</label>
+                <textarea
+                    id="mensagem"
+                    placeholder="Digite sua mensagem"
+                ></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+
+            </form>
+
+            <div class="msg-sucesso" id="msgSucesso">
+                ✅ Mensagem enviada com sucesso! Entraremos em contato em breve.
+            </div>
+
+        </div>
+
+        <section class="cards">
+            <div class="card">
+                <h2>📧 E-mail</h2>
+                <p>astrosupply@fiap.com.br</p>
+            </div>
+
+            <div class="card">
+                <h2>📍 Localização</h2>
+                <p>São Paulo - SP<br>FIAP • Global Solution 2026</p>
+            </div>
+
+            <div class="card">
+                <h2>⏰ Atendimento</h2>
+                <p>Segunda à Sexta<br>08:00 às 18:00</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 AstroSupply • Global Solution FIAP • Luiz Guedes & Gustavo Mendes</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

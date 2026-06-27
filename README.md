@@ -47,6 +47,13 @@ AstroSupply/
 
 └── README.md
 
+
+## 🖼️ Imagens do Projeto
+
+![Home](assets/home.png)
+![Dashboard](assets/dashboard.png)
+![Alertas](assets/alertas.png)
+
 ---
 
 ## ⚙️ Funcionalidades

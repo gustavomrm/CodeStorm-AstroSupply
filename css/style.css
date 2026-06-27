@@ -222,3 +222,32 @@ footer {
     color: #555;
     font-size: 15px;
 }
+.alertas-lista {
+    width: 85%;
+    margin: 30px auto;
+}
+
+.alerta {
+    width: 100%;
+    margin: 20px auto;
+    padding: 22px 28px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.verde {
+    background: #2ecc71;
+    color: #0a3d1f;
+}
+
+.amarelo {
+    background: #f1c40f;
+    color: #5a4200;
+}
+
+.vermelho {
+    background: #e74c3c;
+    color: white;
+}

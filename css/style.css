@@ -364,3 +364,92 @@ footer {
     font-size: 14px;
     margin-bottom: 10px;
 }
+.integrantes {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.pessoa {
+    background: white;
+    color: #111;
+    width: 300px;
+    padding: 35px 25px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.pessoa:hover {
+    transform: translateY(-6px);
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #1a2a5e;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+}
+
+.pessoa h2 {
+    font-size: 19px;
+    margin-bottom: 5px;
+    color: #111;
+}
+
+.pessoa .rm {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 4px;
+}
+
+.pessoa .turma {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 12px;
+}
+
+.pessoa .cargo {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 14px;
+    font-style: italic;
+}
+
+.pessoa p.descricao {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.links-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.links-sociais a {
+    text-decoration: none;
+    background: #0b1026;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.links-sociais a:hover {
+    background: #4fc3ff;
+    color: #111;
+}

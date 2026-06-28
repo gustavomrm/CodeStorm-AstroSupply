@@ -71,13 +71,13 @@ CodeStorm-AstroSupply/
 - Turma: 1TDSPX
 - [LinkedIn](https://www.linkedin.com/in/luiz-guedes-6303213b9/)
 - [GitHub](https://github.com/gustavomrm/CodeStorm-AstroSupply)
-
+![Luiz](assets/luiz.png)
 ### Gustavo Mendes da Rosa Moreira
 - RM: 565807
 - Turma: 1TDSPX
 - [LinkedIn](https://www.linkedin.com/in/gustavo-moreira-7ba9a7354/)
 - [GitHub](https://github.com/gustavomrm/CodeStorm-AstroSupply)
-
+![Gustavo](assets/gustavo.png)
 ---
 
 ## 🔗 Repositório GitHub

@@ -19,40 +19,26 @@ Projeto desenvolvido para a **Global Solution FIAP 2026**, alinhado ao tema **Ec
 ---
 
 ## 📂 Estrutura de Pastas
-AstroSupply/
 
+```
+CodeStorm-AstroSupply/
 ├── css/
-
 │   └── style.css
-
 ├── js/
-
 │   └── script.js
-
 ├── assets/
-
+│   ├── home.png
+│   ├── dashboard.png
+│   └── alertas.png
 ├── index.html
-
 ├── sobre.html
-
 ├── dashboard.html
-
 ├── alertas.html
-
 ├── faq.html
-
 ├── contato.html
-
 ├── integrantes.html
-
 └── README.md
-
-
-## 🖼️ Imagens do Projeto
-
-![Home](assets/home.png)
-![Dashboard](assets/dashboard.png)
-![Alertas](assets/alertas.png)
+```
 
 ---
 
@@ -67,6 +53,14 @@ AstroSupply/
 - Página de integrantes com links para LinkedIn e GitHub
 - Menu hambúrguer responsivo para mobile
 - Layout responsivo para mobile, tablet e desktop
+
+---
+
+## 🖼️ Imagens do Projeto
+
+![Home](assets/home.png)
+![Dashboard](assets/dashboard.png)
+![Alertas](assets/alertas.png)
 
 ---
 
